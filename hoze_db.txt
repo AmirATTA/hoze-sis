@@ -1,0 +1,26 @@
+
+users (id, name, email, mobile, email_verified_at, password, remember_token, created_at, updated_at)
+
+sliders (id, image, link, title, summary, status, created_at, updated_at)
+
+categories (id, name, slug, type['article', 'news'], status, created_at, updated_at)
+
+news (id, user_id, category_id, title, slug, subtitle, summary, body, image, published_at, views_count, featured, resource, status, created_at, updated_at)
+
+tags (id, name, created_at, updated_at)
+
+news_tag (id, news_id, tag_id)
+
+announcements (id, user_id, title, slug, summary, body, image, published_at, views_count, status, created_at, updated_at)
+
+articles (id, user_id, category_id, title, slug, summary, body, image, views_count, resource, status, created_at, updated_at)
+
+sliders (id, image, link, title, summary, status, created_at, updated_at)
+
+links (id, image, link, title, subtitle, status, created_at, updated_at)
+
+menu_groups (id, title, created_at, updated_at)
+
+menu_items (id, menu_group_id, link, linkable_id, linkable_type, order, new_tab, status, created_at, updated_at)
+
+settings (id, group, label, name, type, value, created_at, updated_at)
