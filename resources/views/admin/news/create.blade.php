@@ -43,7 +43,7 @@
 						<div class="col-md-6">
 							<div class="form-group">
 								<label class="form-label">دسته بندی</label>
-								<select class="form-control custom-select select2" name="category_id" data-placeholder="انتخاب دسته بندی">
+								<select class="form-control custom-select select2" name="speciality_id" data-placeholder="انتخاب دسته بندی">
 									<option label="انتخاب نوع دسته بندی"></option>
 									@foreach($categories as $item)										
 										<option value="{{ $item->id }}">{{ $item->name }}</option>
